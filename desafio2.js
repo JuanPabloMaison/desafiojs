@@ -26,26 +26,29 @@ function calculo(
   precioConDto1,
   precioConDto2
 ) {
+
   if (entrada == juego1) {
     alert("Usted eligio el juego " + juego1);
-    alert("El precio sin IVA de este juego es " + precioJuego1);
-    alert("El precio de este juego con IVA es " + resultado1);
+    alert("El precio sin IVA de este juego es $" + precioJuego1);
+    alert("El precio de este juego con IVA es $" + resultado1);
     alert(
-      "Este juego tiene un descuento del 30% y su precio final es " +
-        precioConDto1
+      "Este juego tiene un descuento del 30% y su precio final es $" +
+      precioConDto1
     );
   } else if (entrada == juego2) {
     alert("Usted eligio el juego " + juego2);
-    alert("El precio sin IVA de este juego es " + precioJuego2);
-    alert("El precio de este juego con IVA es " + resultado2);
+    alert("El precio sin IVA de este juego es $" + precioJuego2);
+    alert("El precio de este juego con IVA es $" + resultado2);
     alert(
-      "Este juego tiene un descuento del 30% y su precio final es " +
-        precioConDto2
+      "Este juego tiene un descuento del 30% y su precio final es $" +
+      precioConDto2
     );
   } else {
     alert("Este juego no existe");
   }
 }
+
+
 calculo(
   juego1,
   juego2,
