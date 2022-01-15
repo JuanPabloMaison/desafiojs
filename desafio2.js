@@ -1,5 +1,7 @@
 // compra de juegos y calculo de descuentos con iva incluido
-let entrada = prompt("Ingrese los juegos a comprar");
+let entrada = prompt(
+  "Ingrese los juegos a comprar. Los juegos disponibles son God of War y Alone"
+);
 
 let juego1 = "God of War";
 let juego2 = "Alone";
