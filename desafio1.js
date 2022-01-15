@@ -9,8 +9,8 @@
 
 // Pedir número mediante prompt y sumarle otro número en cada repetición,realizando una salida por cada resultado
 
-let numero = Number(prompt("Ingrese su numero"));
-let entrada = Number(prompt("Ingrese otro numero"));
+let numero = Number(prompt("Ingrese su numero para multiplicar"));
+let entrada = Number(prompt("Ingrese otro numero para multiplicar"));
 
 for (let i = 0; i <= numero; i++) {
   alert("El resultado de la operación es " + numero * entrada);

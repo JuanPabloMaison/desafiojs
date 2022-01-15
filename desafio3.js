@@ -1,5 +1,5 @@
 //Ejercicio para calcular el IVA de un precio
-let entrada = Number(prompt("Ingrese costo de entrada"));
+let entrada = Number(prompt("Ingrese costo de entrada para calcular el IVA"));
 let iva = 1.21;
 let resultado;
 
