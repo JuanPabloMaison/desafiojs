@@ -22,10 +22,7 @@ function calculo(juego1, juego2, precioJuego1, precioJuego2, resultado1, resulta
         alert("Usted eligio el juego " + juego1);
         alert("El precio sin IVA de este juego es $" + precioJuego1);
         alert("El precio de este juego con IVA es $" + resultado1);
-        alert(
-            "Este juego tiene un descuento del 30% y su precio final es $" +
-            precioConDto1
-        );
+        alert("Este juego tiene un descuento del 30% y su precio final es $" + precioConDto1);
     } else if (entrada == juego2) {
         alert("Usted eligio el juego " + juego2);
         alert("El precio sin IVA de este juego es $" + precioJuego2);
